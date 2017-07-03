@@ -26,7 +26,7 @@ function reset() {
   grow = 0;
   death = false;
   score = 0;
-  noWallMode = che.value();
+  noWallMode = che.checked();
   summonFood();
 }
 
